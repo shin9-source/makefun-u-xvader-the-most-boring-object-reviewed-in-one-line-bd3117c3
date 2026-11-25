@@ -4,7 +4,7 @@ import { dirname } from "node:path";
 // Ulasan satu baris atas benda sehari-hari paling membosankan:
 // karet gelang — pengikat yang selalu putus dan menghilang.
 const ENTRY: string =
-  "This rubber band spent its life holding everything together, then snapped the moment you needed it and vanished into a drawer without a word.";
+  "This paperclip held three pages together for six years, then let go the day you photocopied them and now lives under your keyboard, judging you.";
 
 const out: string = process.env.ENTRY_OUT ?? "/output/entry.txt";
 mkdirSync(dirname(out), { recursive: true });
